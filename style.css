@@ -1,0 +1,206 @@
+div,body,p{
+	margin: 0;
+	margin: 0;
+}
+
+body{
+	background: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png);
+}
+.circle{
+	position: relative;
+	padding: 12px;
+	height: 500px;
+	width: 500px;
+	margin: 100px auto;
+	border-radius: 50%;
+	background-color: #333333;
+}
+
+.forcs{
+	display: flex;
+	flex-wrap:wrap;
+}
+.circle2{
+	z-index: 10;
+	position: absolute;
+	top:125px;
+	left:125px;
+	border: 12px solid #333333;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: #ece7ee;
+}
+
+.title{
+	font-size: 50px;
+	color:#222222;
+	font-weight: bold;
+	text-align: center;
+	margin: 24px 0 0 0;
+}
+
+.line2{
+	width: 200px;
+	height: 100px;
+	position: relative;
+
+}
+
+.line2_1{
+	position:absolute;
+	left: 18px;
+	width:80px;
+	height: 100px;
+}
+.line2_2{
+	position:absolute;
+	left: 108px;
+	width:60px;
+	height: 100px;
+}
+.line2_3{
+	position:absolute;
+	left: 174px;
+	width:60px;
+	height: 100px;
+}
+
+
+.line2_1 p{
+	text-align: center;
+	margin-top: 5px;
+}
+.line2_2 p, 
+.line2_3 p{
+	text-align: center;
+	margin-top: 74px;
+}
+
+
+.screen{
+    width: 64px;
+    height:48px;
+    background-color: #32050c;
+    border: 8px solid #170306;
+    border-radius: 12px;
+    margin-top: 5px;
+    color: #dc0d29;
+    // font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing:6px;
+}
+.btn1{
+	position: absolute;
+	left:14px;
+	top:26px;
+	box-shadow: 5px 5px 3px #888888;
+	width: 30px;
+	height:30px;
+	border-radius: 50%;
+	background-color: #fc0102;
+	cursor:pointer;
+
+}
+.light{
+	border: 2px solid grey;
+	position: absolute;
+	left:22px;
+	top:6px;
+    width: 10px;
+	height:10px; 
+	background-color: grey;
+	border-radius: 50%;
+}
+.btn2{
+	position: absolute;
+	left:14px;
+	top:26px;
+	box-shadow: 5px 5px 3px #888888;
+	width: 30px;
+	height:30px;
+	border-radius: 50%;
+	background-color: yellow;
+	cursor:pointer;
+}
+
+.line3{
+	width: 200px;
+	height: 25px;
+	position: relative;
+	margin:10px 26px;
+}
+
+.off{
+	position: absolute;
+	left:34px;
+	line-height: 25px;
+}
+.on{
+	position: absolute;
+	right:40px;
+	line-height: 25px;
+}
+
+
+
+.onOff_out{
+    
+	position: absolute;
+	left:75px;
+
+	width:52px;
+	height: 25px;
+	border-radius: 4px;
+	background-color: #222222;
+}
+.onOff_in{
+	position: absolute;
+	left:0;
+	width:25px;
+	height: 23px;
+	border-radius: 4px;
+	margin:1px; 
+	background-color: #3193de;
+	cursor:pointer;
+}
+
+
+
+.c1{
+	margin: 12px;
+	width: 226px;
+	height:226px;
+	background-color: #00a74a;
+	border-radius: 100% 0 0 0;
+	cursor:pointer;
+}
+
+.c2{
+	margin: 12px;
+	width: 226px;
+	height:226px;
+	background-color: #9f0f17;
+	border-radius:  0 100% 0 0;
+	cursor:pointer;
+}
+
+.c3{
+	margin: 12px;
+	width: 226px;
+	height:226px;
+	background-color: #cca707;
+	border-radius:  0 0 0 100%;
+	cursor:pointer;
+}
+
+.c4{
+	margin: 12px;
+	width: 226px;
+	height:226px;
+	background-color: #094a8f;
+	border-radius: 0 0 100% 0;
+	cursor:pointer;
+}
